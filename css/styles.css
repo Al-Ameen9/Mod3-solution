@@ -1,0 +1,62 @@
+body {
+    font-size: 16px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    line-height: 2.5rem;
+}
+
+#header-nav {
+    background-color: rgb(204, 226, 207);
+    color: rgb(255, 255, 255);
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand h1 {
+    color: rgb(109, 137, 197);
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+#button {
+    border: 1px solid rgb(148, 179, 209);
+}
+
+
+#nav-list li {
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: #FFF;
+    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+}
+
+#nav-list #last-item {
+    border: none;
+    padding-bottom: 0;
+}
+
+#main-content {
+    height: 150vh;
+}
+
+#page-title {
+    color: rgb(24, 54, 58);
+    font-size: 4rem;
+    margin-top: -5px;
+}
+
+#main-section {
+    background-color: rgb(72, 83, 11);
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 767px) {
+    .collapse.in {
+        background-color: rgb(6, 63, 59);
+    }
+}
